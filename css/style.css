@@ -67,7 +67,7 @@ p#meal-paragraph {
 }
 .meal-substance-images img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .meal-substance {
     text-align: center;
@@ -80,6 +80,7 @@ p#meal-paragraph {
     margin: 15px 0;
 }
 #ingredients-text {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: black;
@@ -88,6 +89,7 @@ p#meal-paragraph {
     color: hsl(11, 84%, 62%);
 }
 #ingredients-details{
+    font-family: 'Roboto', sans-serif;
     list-style: none;
     margin-left: -30px;
     margin-top: 20px;
