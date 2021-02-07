@@ -73,15 +73,15 @@ function allMealContent(meal) {
   let mealDetails= `
   <div class="rows mt-3 mb-3">
       <div class="col-md-6 m-auto">
-          <div id="meal-substance">
+          <div id="meal-substance" class="meal-substance-images">
               <img src="${meal.strMealThumb}" class="img-fluid" />
           </div>
           <div class="meal-text">
               <h2>${meal.strMeal}</h2>
           </div>
-              <span id="indgra-heading">text-details</span>
-          <ul id="text-details">
-          ${strIngredient.map(ingradient=>`<li><span><i class="fas fa-check-square"></i></span> ${ingradient}</li>`).join(' ')}
+              <span id="ingredients-text">Ingredients</span>
+          <ul id="ingredients-details">
+          ${strIngredient.map(ingredient=>`<li><span><i class="fas fa-check-square"></i></span> ${ingredient}</li>`).join(' ')}
           </ul>
       </div>
   </div>
